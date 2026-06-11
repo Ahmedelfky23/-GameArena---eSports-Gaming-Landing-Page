@@ -19,7 +19,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="m-0 p-0 position-relative">
+  <body class="m-0 p-0 position-relative" data-bs-spy="scroll" data-bs-target="#mainNav" tabindex="0">
     <!-- start nav bar -->
     <nav
       class="navbar fixed-top navbar-expand-lg bg-dark px-lg-4 navbar-dark border-bottom"
@@ -1682,16 +1682,5 @@
       </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-          target: "#mainNav",
-          rootMargin: "0px 0px -20%",
-        });
-        window.addEventListener("load", function () {
-          scrollSpy.refresh();
-        });
-      });
-    </script>
   </body>
 </html>
