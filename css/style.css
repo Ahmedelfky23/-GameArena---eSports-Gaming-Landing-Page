@@ -363,6 +363,18 @@ main {
 .icon-box i {
   color: var(--main-color);
 }
+@media (max-width: 767px) {
+  .what-we-do .box .icon-box {
+    width: 50px;
+    height: 50px;
+  }
+  .what-we-do .box .icon-box i {
+    font-size: 1.25rem !important;
+  }
+  .what-we-do .box h3 {
+    font-size: 0.9rem !important;
+  }
+}
 .w-border {
   width: 50%;
   height: 2px;
