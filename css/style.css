@@ -2,6 +2,10 @@ body{
   background-size: cover;
   font-family: "Chakra Petch", sans-serif;
 }
+body ::selection {
+  background-color: var(--main-color);
+  color: #0b0e13;
+}
 :root {
   --main-color: rgb(203, 254, 28);
   --secondary-color: rgb(11, 14, 19);
